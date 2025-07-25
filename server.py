@@ -23,7 +23,7 @@ def sent_detector():
 
     # Check if the dominant emotion is None, indicating an error or invalid input
     if dominant_emotion is None:
-        return "Invalid input! Try again."
+        return "Invalid text! Please try again!"
 
     # Format the response as specified
     emotion_details = ', '.join([f"'{emotion}': {score}" for emotion, score in emotions.items()])
